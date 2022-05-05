@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="CSS.css">
+    
+
+  <link rel="shortcut icon" href="icon.ico">
+  <title>Semana Paulo Freire</title>
+
+</head>
+
+<style>
+    .wrapper{
+  max-width: 500px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  margin: 20px auto;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+  padding: 30px;
+}
+.wrapper .title{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: rgb(3, 140, 252);
+  text-transform: uppercase;
+  text-align: center;
+}
+.wrapper .form{
+  width: 100%;
+}
+.wrapper .form .inputfield{
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.wrapper .form .inputfield label{
+   width: 200px;
+   color: rgb(0, 61, 110);
+   margin-right: 10px;
+  font-size: 14px;
+}
+.wrapper .form .inputfield .input,
+.wrapper .form .inputfield .textarea{
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+.wrapper .form .inputfield .textarea{
+  width: 100%;
+  height: 125px;
+  resize: none;
+}
+.wrapper .form .inputfield .custom_select{
+  position: relative;
+  width: 100%;
+  height: 37px;
+}
+.wrapper .form .inputfield .custom_select:before{
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  border: 8px solid;
+  border-color: #d5dbd9 transparent transparent transparent; /*   border-color: #d5dbd9 transparent transparent transparent; */
+  pointer-events: none;
+}
+.wrapper .form .inputfield .custom_select select{
+  -webkit-appearance: none;
+  -moz-appearance:   none;
+  appearance:        none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 1px solid #d5dbd9;
+  border-radius: 3px;
+}
+.wrapper .form .inputfield .input:focus,
+.wrapper .form .inputfield .textarea:focus,
+.wrapper .form .inputfield .custom_select select:focus{
+  border: 1px solid rgb(3, 140, 252);
+}
+.wrapper .form .inputfield p{
+   font-size: 14px;
+   color: #757575;
+}
+.wrapper .form .inputfield .check{
+  width: 15px;
+  height: 15px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+.wrapper .form .inputfield .check input[type="checkbox"]{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.wrapper .form .inputfield .check .checkmark{
+  width: 15px;
+  height: 15px;
+  border: 1px solid rgb(3, 140, 252);
+  display: block;
+  position: relative;
+}
+
+.wrapper .form .inputfield .btn{
+  width: 100%;
+   padding: 8px 10px;
+  font-size: 15px; 
+  border: 0px;
+  background:  rgb(3, 140, 252);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+}
+.wrapper .form .inputfield .btn:hover{
+  background: rgb(3, 140, 252);
+}
+
+.wrapper .form .inputfield:last-child{
+  margin-bottom: 0;
+}
+@media (max-width:420px) {
+  .wrapper .form .inputfield{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wrapper .form .inputfield label{
+    margin-bottom: 5px;
+  }
+  .wrapper .form .inputfield.terms{
+    flex-direction: row;
+  }
+}
+</style>
+
+<body>
+
+  <nav id="menu-h">
+    <ul>
+      <li><a href="index.html">Home</a> </li>            
+      <li><a href="biografia.html">Biografia</a></li>
+      <li><a href="ContribuicoesParaAEducacao.html">Contribuições para a educação</a></li>
+      <li><a href="ideologia.html">Ideologia</a></li>
+      <li><a href="ObrasArtes.html">Artes/Obras</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+</nav>
+
+<h1>Semana Paulo Freire</h1>
+    <h2>Efetuar Login</h2>
+
+    <div class="wrapper">
+        <div class="title">
+            LOGIN
+        </div>
+        <div class="form">
+            <div class="inputfield">
+              <label>Usuário ou Email</label>
+              <input type="text" class="input" required>
+            </div>  
+            <div class="inputfield">
+              <label>Senha</label>
+              <input type="password" class="input" required>
+            </div>                         
+            
+            <div class="inputfield">
+                <input type="submit" value="Entrar" class="btn">
+            </div>
+            
+            <p style="text-align: center; font-size: 14px; color: rgb(0, 0, 0); text-decoration: none;">Não possui uma conta? <a href="registrar.html">Crie uma aqui</a></p>
+        </div>
+    </div>	
+
+    
+    <div style="text-align: center;"class="texto-introducao">
+      <p>Deseja ver artes e obras de Paulo Freire? <a href="ObrasArtes.html">Clique aqui!</a></p>
+    </div>
+    <img style="margin-bottom: 60px; margin-top: 10px;" src="imagens/arte-login.jpg">
+</body>
+
+<footer>
+    <p1>© 2022 Site Semana Paulo Freire. Todos os direitos reservados.</p1>
+</footer>
+
