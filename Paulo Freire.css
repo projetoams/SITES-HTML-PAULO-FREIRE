@@ -1,0 +1,39 @@
+.imageminicio{
+    margin:0 700px 0 ;
+}
+.p{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.principal{
+	background: #ffffff;
+	padding: 30px;
+}
+.imginicio img{
+    max-width:800px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+}
+button {
+    background-color: black; 
+    color:  #D7E3E8; 
+    border: 2px solid black;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    width: 12%;
+    cursor: pointer;
+    margin: 4px 2px;
+}
+button:hover {
+    background-color:  #ffffff; 
+    color: black;
+}
+.nome{
+    font-size: 20px;
+    padding-right: 20%;
+    padding-left: 20%;
+    font-family: Arial, sans-serif;
+}
