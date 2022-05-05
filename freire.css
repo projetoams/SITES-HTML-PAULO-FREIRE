@@ -1,0 +1,69 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+	background: linear-gradient(green,yellow,blue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header {
+	background: rgba(0, 0, 0, 0.973);
+}
+
+.caixa {
+    background-color: darkolivegreen;
+    width: 100%;
+	height: 50px;
+    font-size: 200%;
+    position: relative;
+	padding: 22px 0 5px 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 50px;
+	padding: 10px 10px 10px 10px;
+	background-color: gold;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #111133;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.banner{
+	padding: 10px 10px 10px 10px;
+	width: 500px;
+	float: left;
+	height: fit-content;
+}
+
+.frere{
+	font-size: 40px;
+	padding: 15px 200px 0 20px;
+}
+
+.pess{
+	padding: 10px 10px 10px 50px;
+	font-size: large;
+}
+
+.zumbidos{
+	padding: 10px 10px 10px 100px;
+	font-size: larger;
+}
+
+.zumbido{
+	padding: 10px 10px 30px 100px;
+	font-size: larger;
+}
